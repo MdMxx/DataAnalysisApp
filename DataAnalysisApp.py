@@ -3,7 +3,7 @@ requirements.txt:
 streamlit==1.44.1
 pandas==2.2.3
 numpy==2.2.4
-yfinance==0.2.37
+yfinance==0.2.55
 matplotlib==3.8.4
 """
 
