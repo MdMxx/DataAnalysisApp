@@ -7,8 +7,7 @@ yahoofinance==0.2.36
 matplotlib==3.8.4
 !pip install yfinance
 """
-import streamlit as st
-import yfinance as yf 
+import streamlit as st 
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
