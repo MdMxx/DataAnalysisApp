@@ -1,11 +1,12 @@
 """
-requirements.txt:
 streamlit==1.44.1
 pandas==2.2.3
 numpy==2.2.4
-yahoofinance==0.2.36
 matplotlib==3.8.4
-!pip install yfinance
+google-generativeai==0.3.2
+yfinance==0.2.36
+altair==5.5.0
+protobuf<=3.20.3  # Wichtig für Google Generative AI Kompatibilität
 """
 try:
     import yfinance as yf
