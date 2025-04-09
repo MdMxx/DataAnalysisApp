@@ -1,12 +1,4 @@
-"""
-requirements txt:
-streamlit==1.44.1
-pandas==2.2.3
-numpy==2.2.4
-matplotlib==3.8.4
-google-generativeai==0.3.2
-yfinance>=0.2.31b2
-"""
+
 import yfinance as yf
 import streamlit as st 
 import pandas as pd
