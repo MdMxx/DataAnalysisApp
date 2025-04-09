@@ -8,13 +8,7 @@ yfinance==0.2.36
 altair==5.5.0
 protobuf<=3.20.3  # Wichtig für Google Generative AI Kompatibilität
 """
-try:
-    import yfinance as yf
-except ImportError:
-    from pandas_datareader import data as pdr
-    import pandas as pd
-    yf = pdr
-    pd.core.common.is_list_like = pd.api.types.is_list_like
+import yfinance as yf
 import streamlit as st 
 import pandas as pd
 import numpy as np
