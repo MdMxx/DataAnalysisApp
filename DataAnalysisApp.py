@@ -3,11 +3,10 @@ requirements.txt:
 streamlit==1.44.1
 pandas==2.2.3
 numpy==2.2.4
-yahoofinance==0.2.55
+yahoofinance==0.2.36
 matplotlib==3.8.4
 !pip install yfinance
 """
-!pip install yfinance
 import streamlit as st
 import yfinance as yf 
 import pandas as pd
