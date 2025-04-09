@@ -4,12 +4,8 @@ pandas==2.2.3
 numpy==2.2.4
 matplotlib==3.8.4
 google-generativeai==0.3.2
-yfinance==0.2.36
-altair==5.5.0
-protobuf<=3.20.3  # Wichtig für Google Generative AI Kompatibilität
+pip install yfinance
 """
-import appdirs as ad
-ad.user_cache_dir = lambda *args: "/tmp"
 import yfinance as yf
 import streamlit as st 
 import pandas as pd
