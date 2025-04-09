@@ -8,6 +8,8 @@ yfinance==0.2.36
 altair==5.5.0
 protobuf<=3.20.3  # Wichtig für Google Generative AI Kompatibilität
 """
+import appdirs as ad
+ad.user_cache_dir = lambda *args: "/tmp"
 import yfinance as yf
 import streamlit as st 
 import pandas as pd
