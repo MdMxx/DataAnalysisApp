@@ -4,7 +4,7 @@ pandas==2.2.3
 numpy==2.2.4
 matplotlib==3.8.4
 google-generativeai==0.3.2
-pip install yfinance
+yfinance
 """
 import yfinance as yf
 import streamlit as st 
