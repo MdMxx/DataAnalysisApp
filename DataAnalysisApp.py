@@ -10,8 +10,10 @@ matplotlib==3.8.4
 try:
     import yfinance as yf
 except ImportError:
-    st.error("yfinance nicht installiert! Bitte installieren Sie es mit: pip install yfinance")
-    st.stop()
+    from pandas_datareader import data as pdr
+    import pandas as pd
+    yf = pdr
+    pd.core.common.is_list_like = pd.api.types.is_list_like
 import streamlit as st 
 import pandas as pd
 import numpy as np
