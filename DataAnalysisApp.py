@@ -5,10 +5,11 @@ pandas==2.2.3
 numpy==2.2.4
 yahoofinance==0.2.55
 matplotlib==3.8.4
+!pip install yfinance
 """
-
+!pip install yfinance
 import streamlit as st
-import yahoofinance as yf 
+import yfinance as yf 
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
