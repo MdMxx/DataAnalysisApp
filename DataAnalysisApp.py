@@ -7,6 +7,11 @@ yahoofinance==0.2.36
 matplotlib==3.8.4
 !pip install yfinance
 """
+try:
+    import yfinance as yf
+except ImportError:
+    st.error("yfinance nicht installiert! Bitte installieren Sie es mit: pip install yfinance")
+    st.stop()
 import streamlit as st 
 import pandas as pd
 import numpy as np
